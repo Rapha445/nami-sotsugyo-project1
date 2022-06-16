@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="./assets/fonts/MonitaSignaturePERSONALUSE-Bold.eot" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
     <title>Hotel</title>
 </head>
 <body>
     <header class="header">
         <img class="header__background" src="./assets/images/hero.jpg" height="900" alt="Picture of hotel lounge">
-        <div class="header__container container container--top-s container--bottom-s container--left-s container--right-l grid grid--two-column">
+        <div class="header__container container container--top-s container--bottom-s grid grid--two-column">
             <h1 class="header__title">
                 <img class="header__logo" src="./assets/images/logo.png" alt="Art Hotel Tokyo">
             </h1>
-            <ul class="header__nav nav">
+            <ul class="header__nav nav font--blue font--krona font--size-m font--letterspacing-s">
                 <li class="nav__item">TOP</li>
                 <li class="nav__item">ROOM</li>
                 <li class="nav__item">GALLERY</li>
@@ -26,22 +29,20 @@
                 <a class="header__link link link--round link--size-m link--blue font--krona font--brown" href="">BOOK NOW</a>
         </div>    
     </header>
-    <main class="main container">
-        <section class="section">
-            <h2 class="section__title title">OUR CONCEPT</h2>
-            <div class="section__grid grid">
-                <img class="section__img grid__item-1" src="./assets/images/ourconcept.jpg" alt="Drawing of palm trees">
-                <div class="section__textbox grid__item-2">
-                    <h3 class="section__textbox__title title">Stay with art</h3>
-                    <p class="text">ーアートのある空間で特別なステイをー</p>
-                    <p class="text">アートを通して新たに開く世界や人との出会いを提供する
+    <main class="main">
+        <section class="concept section--brown container grid grid--two-column">
+            <h2 class="concept__title title">OUR CONCEPT</h2>
+                <img class="concept__img" src="./assets/images/ourconcept.jpg" alt="Drawing of palm trees">
+                <div class="concept__textbox">
+                    <h3 class="concept__textbox__title font--waterbrush font--size-l">Stay with art</h3>
+                    <p class="concept__textbox__subtitle font--size-ml">ーアートのある空間で特別なステイをー</p>
+                    <p class="concept__textbox__text font--size-r">アートを通して新たに開く世界や人との出会いを提供する
                         そんな空間を実現しました。</p>
-                    <p class="text">宿泊料の10%を各部屋展示アーティストの制作費用に還元し
+                    <p class="font--size-m">宿泊料の10%を各部屋展示アーティストの制作費用に還元し
                         アーティストの活躍の場を広げる役割を持つ我がホテルは
                         今後の日本のアートシーンの繁栄に貢献いたします。
                         </p>
                 </div>
-            </div>
         </section>
         <section class="section">
             <h2 class="section__title title">HOW TO ENJOY</h2>

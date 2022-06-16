@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: #fff;
 }
 
@@ -17,4 +17,8 @@ img {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }

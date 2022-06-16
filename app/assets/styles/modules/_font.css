@@ -2,7 +2,30 @@
   &--krona {
     font-family: "Krona One", sans-serif;
   }
+  &--waterbrush {
+    font-family: "Water Brush", cursive;
+  }
   &--brown {
     color: #8b7b76;
+  }
+  &--blue {
+    color: #3d466c;
+  }
+  &--size-m {
+    font-size: 0.875rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.7rem;
+  }
+  &--size-r {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  &--size-ml {
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+  }
+  &--size-l {
+    font-size: 4.6rem;
   }
 }
