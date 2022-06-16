@@ -1,0 +1,8 @@
+.font {
+  &--krona {
+    font-family: "Krona One", sans-serif;
+  }
+  &--brown {
+    color: #8b7b76;
+  }
+}

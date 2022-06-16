@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+
+  &--two-column {
+    grid-template-columns: 39.6825397% 50.7936509%;
+    column-gap: 9.5238095%;
+  }
+}

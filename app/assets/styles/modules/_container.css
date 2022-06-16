@@ -1,0 +1,16 @@
+.container {
+  margin-left: 5.625rem;
+  margin-right: 5.625rem;
+  &--top-s {
+    margin-top: 3.125rem;
+  }
+  &--bottom-s {
+    margin-bottom: 6.25rem;
+  }
+  &--left-s {
+    margin-left: 4.875rem;
+  }
+  &--right-l {
+    margin-right: 6.375rem;
+  }
+}
