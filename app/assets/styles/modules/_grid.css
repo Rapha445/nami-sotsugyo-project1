@@ -5,4 +5,7 @@
     grid-template-columns: 39.6825397% 50.7936509%;
     column-gap: 9.5238095%;
   }
+  &--three-column {
+    grid-template-columns: 30.1587302% 42.8571429% 26.984127%;
+  }
 }

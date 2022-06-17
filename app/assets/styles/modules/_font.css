@@ -1,6 +1,7 @@
 .font {
   &--krona {
     font-family: "Krona One", sans-serif;
+    font-weight: 400;
   }
   &--waterbrush {
     font-family: "Water Brush", cursive;
@@ -11,9 +12,17 @@
   &--blue {
     color: #3d466c;
   }
+  &--orange {
+    color: #e38d49;
+  }
   &--size-m {
     font-size: 0.875rem;
     letter-spacing: 0.2rem;
+    line-height: 1.7rem;
+  }
+  &--size-m-narrow {
+    font-size: 0.875rem;
+    letter-spacing: 0.04rem;
     line-height: 1.7rem;
   }
   &--size-r {
@@ -25,7 +34,19 @@
     font-size: 1.25rem;
     letter-spacing: 0.1rem;
   }
+  &--size-mll {
+    font-size: 1.6rem;
+    letter-spacing: 0.15rem;
+  }
+  &--size-mlll {
+    font-size: 2.4rem;
+    letter-spacing: 0.15rem;
+  }
   &--size-l {
     font-size: 4.6rem;
+  }
+  &--title {
+    font-family: "Krona One", sans-serif;
+    font-size: 6.05rem;
   }
 }
