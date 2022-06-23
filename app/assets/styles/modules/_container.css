@@ -6,6 +6,9 @@
   &--top-s {
     padding-top: 3.125rem;
   }
+  &--top-m {
+    padding-top: 4.688rem;
+  }
   &--bottom-s {
     padding-bottom: 6.25rem;
   }

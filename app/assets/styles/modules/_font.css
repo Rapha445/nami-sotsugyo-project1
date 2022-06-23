@@ -15,6 +15,12 @@
   &--orange {
     color: #e38d49;
   }
+  &--letterspacing-l {
+    letter-spacing: 0.07rem;
+  }
+  &--size-s {
+    font-size: 0.625rem;
+  }
   &--size-m {
     font-size: 0.875rem;
     letter-spacing: 0.2rem;
@@ -29,6 +35,11 @@
     font-size: 1rem;
     letter-spacing: 0.1rem;
     line-height: 2rem;
+  }
+  &--size-rl {
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: 0.07rem;
   }
   &--size-ml {
     font-size: 1.25rem;
